@@ -14,10 +14,6 @@ interface ProductRepositoryInterface
     public function create(array $data): Product;
     public function update(int $id, array $data): Product;
     public function delete(int $id): bool;
-
-    // Methods for managing product-category relationships
-    public function assignCategories(int $productId, array $categoryIds): Product;
-    public function detachCategories(int $productId, array $categoryIds): Product;
 }
 
  ?>
