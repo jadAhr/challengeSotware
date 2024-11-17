@@ -35,6 +35,12 @@ class ProductRepository implements ProductRepositoryInterface
     {
         return Product::destroy($id) > 0;
     }
+
+    public function deleteMultiple(array $ids): bool
+    {
+        return Product::destroy($ids) > 0; // Deletes all products with the provided IDs
+    }
+
     
 }
 

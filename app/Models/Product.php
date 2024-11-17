@@ -13,11 +13,7 @@ class Product extends Model
     protected $table = 'products';
 
     // The attributes that are mass assignable
-    protected $fillable = [
-        'name',
-        'description',
-        'price',
-        'image',
+    protected $fillable = ['name','description','price','image',
     ];
 
     // The attributes that should be hidden for arrays
@@ -34,5 +30,6 @@ class Product extends Model
     public function categories()
     {
         return $this->belongsToMany(Category::class);
-    }
+        
+}
 }
