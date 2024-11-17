@@ -65,89 +65,80 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-
 # How to use this demo
 
 ---------------------------------------------
 
-## 1-Get this repo 
+## 1. Get this repo
 
-clone this repo or install it as zip file,
+Clone this repo or install it as a zip file.
 
-## 2-Run composer install 
+## 2. Run composer install
 
-in your terminal run  
+In your terminal, run:
 
-        "composer install".
+        composer install
 
-that gonna make your ./vendor folder and allow you to use artisan
+This will create your `./vendor` folder and allow you to use artisan.
 
-## 3-Generet you key By
+## 3. Generate your key
 
-runing 
-        "php artisan key:generate" 
-in your terminal.
+Run:
 
-## 4-.env.example
+        php artisan key:generate
 
-this part its imporatns for youe databases.
+In your terminal.
 
-copy or change the name of the file named .env.example to .env ,end configer the informations for your database.
+## 4. .env.example
 
+This part is important for your databases.
 
-## 5-Models and Migration
+Copy or change the name of the file named `.env.example` to `.env`, then configure the information for your database.
 
-in your terminal run 
+## 5. Models and Migration
 
+In your terminal, run:
 
-        "php artisan migrate (name opf the category)"
+        php artisan migrate (name of the category)
 
+## 6. Create some categories
 
-## 6-Creat Some categrys By 
+Run:
 
-runing 
+        php artisan categories:add
 
-        "php artisan categories:add"
+In your terminal.
 
-in your terminal
+## 7. Start creating your products
 
+Run:
 
-## 7-then you can start cteaing your products by
+        php artisan product:add 'NameProduct' 'Description' 'Price' 'ImgOfTheProduct'
 
-runing 
+In your terminal.
 
-        "php artisan product:add 'NameProduct','Discreption' ,Price ,'ImgOfTheProduct'"
+## 8. Run your local server
 
-in your terminal
+Run:
 
+        php artisan serve
 
-## 8-Run your local server by 
+If this doesn't work, try:
 
-runing 
+        php -S localhost:8000 -t public/
 
-        "php artisan serve" if this didnt work try "php -S localhost:8000 -t public/"
+It worked for me.
 
-it worked for me
+## 9. Browse to the page
 
-
-## 9-Browse to the page
-
-in your browser go to 
+In your browser, go to:
 
         http://localhost:8000/products.
 
+## 10. Add products with interface
 
-## 10-Add products with interface
+Press the "Add" button. It should direct you to the form, where you can start adding your products by filling in all the inputs.
 
-Press Add button it should direct you to form and then start to add your products by just filling all the inpute 
+# 11. Thank you for using this demo
 
-
-# 11-thank you for using this demo
-
-## if you face any problem that you cant fix just contact me in my jadaharrar2@gmail.com 
-
-
-
-
-
-
+If you face any problem that you can't fix, just contact me at my email: [jadaharrar2@gmail.com](mailto:jadaharrar2@gmail.com).
