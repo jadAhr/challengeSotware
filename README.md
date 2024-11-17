@@ -76,7 +76,11 @@ clone this repo or install it as zip file,
 
 ## 2-Run composer install 
 
-in your terminal run  "composer install". that gonna make your ./vendor folder and allow you to use artisan
+in your terminal run  
+
+        "composer install".
+
+ that gonna make your ./vendor folder and allow you to use artisan
 
 ## 3-Generet you key By
 
@@ -91,27 +95,44 @@ copy or change the name of the file named .env.example to .env ,end configer the
 
 ## 5-Models and Migration
 
-in your terminal run "php artisan migrate (name opf the category)"
+in your terminal run 
+
+
+            "php artisan migrate (name opf the category)"
 
 
 ## 6-Creat Some categrys By 
 
-runing "php artisan categories:add" in your terminal
+runing 
+
+            "php artisan categories:add"
+
+in your terminal
 
 
 ## 7-then you can start cteaing your products by
 
-runing "php artisan product:add 'NameProduct','Discreption' ,Price ,'ImgOfTheProduct'" in your terminal
+runing 
+
+            "php artisan product:add 'NameProduct','Discreption' ,Price ,'ImgOfTheProduct'"
+
+ in your terminal
 
 
 ## 8-Run your local server by 
 
-runing "php artisan serve" if this didnt work try "php -S localhost:8000 -t public/" it worked for me
+runing 
+
+            "php artisan serve" if this didnt work try "php -S localhost:8000 -t public/"
+
+ it worked for me
 
 
 ## 9-Browse to the page
 
-in your browser go to http://localhost:8000/products.
+in your browser go to 
+
+            http://localhost:8000/products.
 
 
 ## 10-Add products with interface
