@@ -40,4 +40,5 @@ class AddProduct extends Command
         // Output a success message
         $this->info("Product '{$product->name}' created successfully!");
     }
+    
 }
