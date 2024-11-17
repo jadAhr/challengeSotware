@@ -80,15 +80,17 @@ in your terminal run
 
         "composer install".
 
- that gonna make your ./vendor folder and allow you to use artisan
+that gonna make your ./vendor folder and allow you to use artisan
 
 ## 3-Generet you key By
 
-runing "php artisan key:generate" in your terminal.
+runing 
+        "php artisan key:generate" 
+in your terminal.
 
 ## 4-.env.example
 
-        this part its imporatns for youe databases.
+this part its imporatns for youe databases.
 
 copy or change the name of the file named .env.example to .env ,end configer the informations for your database.
 
@@ -98,14 +100,14 @@ copy or change the name of the file named .env.example to .env ,end configer the
 in your terminal run 
 
 
-            "php artisan migrate (name opf the category)"
+        "php artisan migrate (name opf the category)"
 
 
 ## 6-Creat Some categrys By 
 
 runing 
 
-            "php artisan categories:add"
+        "php artisan categories:add"
 
 in your terminal
 
@@ -114,30 +116,30 @@ in your terminal
 
 runing 
 
-            "php artisan product:add 'NameProduct','Discreption' ,Price ,'ImgOfTheProduct'"
+        "php artisan product:add 'NameProduct','Discreption' ,Price ,'ImgOfTheProduct'"
 
- in your terminal
+in your terminal
 
 
 ## 8-Run your local server by 
 
 runing 
 
-            "php artisan serve" if this didnt work try "php -S localhost:8000 -t public/"
+        "php artisan serve" if this didnt work try "php -S localhost:8000 -t public/"
 
- it worked for me
+it worked for me
 
 
 ## 9-Browse to the page
 
 in your browser go to 
 
-            http://localhost:8000/products.
+        http://localhost:8000/products.
 
 
 ## 10-Add products with interface
 
-Press Add button it should direct you to form and then start to add your products by just filling all the input 
+Press Add button it should direct you to form and then start to add your products by just filling all the inpute 
 
 
 # 11-thank you for using this demo
