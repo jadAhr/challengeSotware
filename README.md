@@ -133,7 +133,7 @@ It worked for me.
 
 In your browser, go to:
 
-        http://localhost:8000/products.
+        http://localhost:8000/
 
 ## 10. Add products with interface
 
