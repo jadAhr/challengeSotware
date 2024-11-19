@@ -137,7 +137,7 @@ In your browser, go to:
 
 ## 10. Add products with interface
 
-Press the "Add" button. It should direct you to the form, where you can start adding your products by filling in all the inputs.
+Press the "Add New Products" link. It should direct you to the form, where you can start adding your products by filling in all the inputs.
 
 # 11. Thank you for using this demo
 
