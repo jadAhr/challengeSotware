@@ -67,7 +67,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # How to use this demo
 
-Be sure you have : 
+Make sure you have : 
 - **[Nodejs](https://nodejs.org/en)**
 - **[php](https://www.php.net/)**
 - **[composer](https://getcomposer.org/)**
